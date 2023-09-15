@@ -1,0 +1,17 @@
+<h5>search</h5>
+<input
+  type="text"
+  class="form form-control"
+  placeholder="search gifs"
+  (keyup.enter)="searchGifs()"
+  #valueInput
+/>
+
+<!-- solo se dispara el evento cuando la persona presiona enter -->
+<!-- <input
+  type="text"
+  class="form form-control"
+  placeholder="search gifs"
+  (keyup.enter)="searchGifs(valueInput.value)"
+  #valueInput
+/> -->

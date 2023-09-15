@@ -1,0 +1,8 @@
+<div class="row">
+  <!-- card -->
+  <!-- col-md-3 de las 12 rows disponibles tomar 3 -->
+  <div class="col-md-3 col-sm-6 d-flex" *ngFor="let gif of gifsList">
+    <app-card-img [gif]="gif" ></app-card-img>
+  </div>
+  <!-- end card -->
+</div>

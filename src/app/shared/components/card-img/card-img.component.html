@@ -1,0 +1,14 @@
+<div class="card mb-2 bg-dark text-center card-main-custom">
+  
+  <app-lazy-image
+    class="text-white card-img-custom"
+    [urlImage]="gif.images.downsized_medium.url"
+    [altImg]="gif.title"
+  ></app-lazy-image>
+
+  <div
+    class="card-body text-white d-flex justify-content-center align-items-center"
+  >
+    <p class="card-text">{{ gif.title || "no-found" }}</p>
+  </div>
+</div>
